@@ -22,7 +22,7 @@ public class ReportUtil {
         parameter.put("CROSSTAB_DATA_SOURCE", dataSource);
         //jasperprint object for printing the file at the end
         JasperPrint print = JasperFillManager.fillReport(report, parameter, new JREmptyDataSource());
-            JasperExportManager.exportReportToPdfFile(print,"D:\\java\\SimpleReportMaker\\src\\main\\resources\\pdf\\ClassPdf.pdf");
+            JasperExportManager.exportReportToPdfFile(print,"(file path to your the place you want to creade the pdf)\\ClassPdf.pdf");
 
     }
 }

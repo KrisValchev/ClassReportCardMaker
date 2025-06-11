@@ -31,7 +31,7 @@ public class SimpleReportMakerApplication {
             List<GradeData> gradeDataList = gradeDataService.convertToGradeDataList(gradeRepository.findAll());
 
             //Path to the compiled jasper jrxml file (the template)
-            String jasperPath = new File("D:\\java\\SimpleReportMaker\\src\\main\\resources\\report\\StudentGrades.jrxml").getAbsolutePath();
+            String jasperPath = new File("file path to the jasper report in your resource package").getAbsolutePath();
 
             //Parameters for the report
             HashMap<String, Object> parameters = new HashMap<>();
